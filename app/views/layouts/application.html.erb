@@ -11,6 +11,25 @@
   </head>
 
   <body>
+    <header>
+      <nav>
+        <div>
+          <a><%= link_to"Potepan Share", "/", class: "header" %></a>
+          <ul>
+            <li><%= link_to"ログイン", "/users/sign_in", class: "header" %></li>
+            <li><%= link_to"新規登録", "/users/sign_up", class: "header" %></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
     <%= yield %>
+
+    <footer>
+      <div>
+        <a>Potepan Share</a>
+        <p>Copyright © Potepan Share 2023 All rights reserved</p>
+      </div>
+    </footer> 
   </body>
 </html>

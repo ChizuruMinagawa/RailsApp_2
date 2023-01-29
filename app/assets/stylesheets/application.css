@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+ }
+
+ header {
+  background: #333;
+  height: 100px;
+ }
+
+ footer {
+  color: #fff;
+  background: #333;
+  height: 100px;
+ }
+
+ .header {
+  color: #fff;
+ }
+
+ .section {
+  flex: 1;
+ }
+
+ .FirstView {
+  background-image: url(/assets/images/home/cover-lg.jpg);
+ }
